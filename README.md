@@ -3,10 +3,10 @@
 ![TRabbit Game](https://github.com/pass1enator/TRabbit/blob/master/images/trrabit_play.png)
 
 La práctica consiste en a partir del código que se facilita, crear un juego similar a [T-Rex](https://fivesjs.skipser.com/trex-game/) que aparece en Google Chrome cuando existe problema en la conexión de red.
-# Práctica final.
+
 
 ## Enunciado.
-A partir del código que se proporciona, implementar las clases siguientes clases:
+A partir del código que se proporciona, implementar las clases siguientes:
 
 Background.
 * Representa el fondo del juego, se moverá a medida que el juego avance, en el caso de llegar al final, vuelve a comenzar. El fondo se representa con una matriz de caracteres.
