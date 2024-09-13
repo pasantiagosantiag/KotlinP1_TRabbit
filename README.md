@@ -9,38 +9,53 @@ La práctica consiste en a partir del código que se facilita, crear un juego si
 A partir del código que se proporciona, implementar las clases siguientes:
 
 Background.
+
 * Representa el fondo del juego, se moverá a medida que el juego avance, en el caso de llegar al final, vuelve a comenzar. El fondo se representa con una matriz de caracteres.
+  
 Cactus.
-* Representa un cactus en el juego, hereda de GameElement, se representa con una matriz de caracteres, cada captus puede tener un color
+
+* Representa un cactus en el juego, hereda de GameElement, se representa con una matriz de caracteres, cada captus puede tener un color.
+  
 TRabbit.
+
 * El conejo que se va movie por la pantalla (realmente no se mueve, sino que se desplaza tanto el fondo como los captus de la pantalla).
 * Salta y se colisiona con los captus.
 * Tiene n vidas.
 * Hereda de GameElement.
+  
 GameElement.
+
 * Clase abstracta, posee una coordenada (x,y), un tamaño (W,h) y un dibujo representado por una matriz de caracteres.
 
 Se ha de definir además:
 
 Scene.
+
 * Clase abstracta que representa una escena, posee un estado(PLAY, DEAD, END....).
 * Al menos los métodos abstractos update,paint y processInput.
+  
 Screen.
+
 * Hereda de Scene, sirve como pantalla de introducción al juego, de Game Over, instrucciones...
 * Se le pasa una matriz de caracteres a pintar.
+  
 Level.
+
 * Hereda de Scene.
 * Es el juego propiamente dicho.
 * Se le pasa el TRabbit del juego, un vector de posiciones de los captus y un objeto de tipo fondo.
-* Desarrolla el juego
+* Desarrolla el juego.
+  
 ## Funcionamiento.
 
 El juego posee:
+
 * Una lista de Scene, en la que se encuentran Screen introducción, un conjunto de niveles, Screen de fin.
 * Un Screen de GameOver.
 * Un TRabbit que se pasa a los niveles del juego.
 * Un Screen actual, que irá cambiado al siguiente (se pusa una tecla, se finaliza un nivel, se terminan las vidas...)
 * Un bucle principal que va llamando a los 3 métodos clásicos de un juego:
+  
     - Procesamiento entrada.
     - Actualización juego.
     - Pintar juego
