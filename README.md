@@ -1,6 +1,6 @@
 # Práctica final introducción a Kotlin
 
-![TRabbit Game](https://github.com/pass1enator/TRabbit/blob/master/images/trrabit_play.png)
+![TRabbit Game](https://github.com/pass1enator/KotlinP1_TRabbit/blob/master/images/trrabit_play.png)
 
 La práctica consiste en a partir del código que se facilita, crear un juego similar a [T-Rex](https://fivesjs.skipser.com/trex-game/) que aparece en Google Chrome cuando existe problema en la conexión de red.
 
