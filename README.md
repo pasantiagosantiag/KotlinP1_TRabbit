@@ -25,9 +25,9 @@ TRabbit.
   
 GameElement.
 
-* Clase abstracta, posee una coordenada (x,y), un tamaño (W,h) y un dibujo representado por una matriz de caracteres.
+* Clase abstracta, posee una coordenada (x,y), un tamaño (w,h) y un dibujo representado por una matriz de caracteres.
 
-Se ha de definir además:
+Se han de definir además:
 
 Scene.
 
@@ -50,7 +50,7 @@ Level.
 
 El juego posee:
 
-* Una lista de Scene, en la que se encuentran Screen introducción, un conjunto de niveles, Screen de fin.
+* Una lista de Scene, en la que se encuentran: Screen introducción, un conjunto de niveles, Screen de fin.
 * Un Screen de GameOver.
 * Un TRabbit que se pasa a los niveles del juego.
 * Un Screen actual, que irá cambiado al siguiente (se pusa una tecla, se finaliza un nivel, se terminan las vidas...)
